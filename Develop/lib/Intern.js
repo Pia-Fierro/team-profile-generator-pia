@@ -1,4 +1,4 @@
-// using Employee constructor to created class Intern
+// using Employee constructor to create class Intern
 const Employee = require ('./Employee');
 
 class Intern extends Employee {
@@ -6,21 +6,20 @@ class Intern extends Employee {
         super (name, id, email);
         this.school = school;
     }
-//returning school input
     getSchool () {
         return this.school;
     }
-// overwritting role to Intern
+//employee role to Intern
     getRole () {
         return "Intern";
     }
     getIcon () {
         return "fas fa-user-graduate"
     }
-    getInternData () {
+    getEmployeeData () {
         return "School:"
     }
-    getInternValue () {
+    getEmployeeDataValue () {
         return this.school;
     }
 }

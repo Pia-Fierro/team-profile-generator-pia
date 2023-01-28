@@ -1,4 +1,4 @@
-// using Employee constructor to created class Engineer
+// using Employee constructor to create class Engineer
 const Employee = require ('./Employee');
 
 class Engineer extends Employee {
@@ -6,22 +6,21 @@ class Engineer extends Employee {
         super (name, id, email);
         this.github= github;
     }
-// returning github input  
     getGithub () {
         return this.github;
     }
- //overwritting role to Engineer 
+ //employee role to Engineer 
     getRole () {
         return "Engineer";
     }
     getIcon () {
         return "fas fa-glasses"
     }
-    getGithub () {
-        return "<a href=https://github.com/" + this.github +">" + this.github + "</a>";
-    }
-    getEngineerData () {
+    getEmployeeData () {
         return "GitHub:";
+    }
+    getEmployeeDataValue () {
+        return "<a href=https://github.com/" + this.github +">" + this.github + "</a>";
     }
 }
 
