@@ -17,7 +17,7 @@ class Intern extends Employee {
         return "fas fa-user-graduate"
     }
     getEmployeeData () {
-        return "School:"
+        return "School"
     }
     getEmployeeDataValue () {
         return this.school;

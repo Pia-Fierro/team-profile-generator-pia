@@ -15,7 +15,7 @@ const generateHTML = htmlContent => {
     </head>
     <body>
         <div class="card-container">
-            <div class="card-header row text-center" style="background-color:aquamarine">
+            <div class="card-header row text-center" style="background-color:#82df82">
                 <h1>My Team</h1>
             </div>
             <div class="card-body col-12"> 

@@ -17,7 +17,7 @@ class Engineer extends Employee {
         return "fas fa-glasses"
     }
     getEmployeeData () {
-        return "GitHub:";
+        return "GitHub";
     }
     getEmployeeDataValue () {
         return "<a href=https://github.com/" + this.github +">" + this.github + "</a>";

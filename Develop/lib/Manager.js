@@ -18,7 +18,7 @@ class Manager extends Employee {
         return "fas fa-mug-hot"
     }
     getEmployeeData () {
-        return "Office number:"
+        return "Office number"
     }
     getEmployeeDataValue () {
         return this.officeNumber;
