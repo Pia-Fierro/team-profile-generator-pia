@@ -24,7 +24,7 @@ run npm test
 
 - Node.js
 
-- npm modules : fs (to write the HTML file), inquirer (to render the questions in the comand line to the user) and jest (to test the code). 
+- npm modules : fs (to write the HTML file), inquirer 8.2.4 (to render the questions in the comand line to the user) and jest (to test the code). 
 
 - Font Awsome icon library: to render employee type icons.
 
